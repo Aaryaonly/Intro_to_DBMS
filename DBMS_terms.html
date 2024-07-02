@@ -1,0 +1,155 @@
+<html>
+<head>
+<meta charset='UTF-8'>
+<title>Introduction to the Basic Terms of DBMS</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body {
+        font-family: 'Bahnschrift', sans-serif;
+    padding: 10px;
+    size : 1.0rem;
+    background: linear-gradient(43deg, #D7A9E3FF, #8BBEE8FF, #A8D5BAFF);
+    text-align: center;
+    color:white 
+}
+
+h1 {
+    color:#D8D8D8; 
+    padding: 30px;
+    line-height: 1.5;
+}
+
+
+h2 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #9075f2;
+    text-align: left;
+
+}
+  
+
+ p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color:#e6e6e6	;
+    text-align: justify;
+}
+
+hr {
+    background-color:#FFB6C1; 
+    height: 2px;
+    opacity: 0.5;
+    width: 100%;
+}
+
+.ball{
+        background-color:00CED1;
+     height: 2px;
+    opacity: 0.8;
+    width:100%;
+}
+
+</style>
+</head>
+<body>
+    <h1>Introduction to DBMS Terms</h1>
+   <div class="ball">   <HR> </div>
+<br>
+    
+    <div >  
+        <h2>Data</h2>
+        <p> Data refers to raw facts and figures that can be processed and interpreted to gain information.</p>
+        <p><strong>Example:</strong> Numeric values, text strings, dates, images, etc.</p>
+        <hr>
+    </div>
+    <br>
+        
+    <div>
+        <h2>Table</h2>
+        <p>In a database context, a table is a structured collection of data organized into rows (records) and columns (fields), where each row represents a unique record and each column represents a data attribute.</p>
+        <p><strong>Example:</strong> In a "Students" table, each row could represent a different student, and columns could include attributes like student ID, name, and date of birth.</p>
+        <hr>
+    </div>
+    <br>
+    
+    <div>
+        <h2>Information</h2>
+        <p>Information is processed and organized data that has context and meaning. It is the result of interpreting and analyzing data to make it useful and meaningful for decision-making.</p>
+        <p><strong>Example:</strong> Reports, summaries, statistics, etc.</p>
+        <hr>
+    </div>
+    <br>
+    
+    <div>
+        <h2>Metadata</h2>
+        <p>Metadata is data that provides information about other data. It describes the structure, content, and context of data elements within a database or data repository.</p>
+        <p><strong>Example:</strong> Descriptions of data fields, data types, constraints, etc.</p>
+        <hr>
+    </div>
+    <br>
+    
+    <div>
+        <h2>DBMS (Database Management System)</h2>
+        <p>A DBMS is a software system that enables users to create, manage, and manipulate databases, providing functions for data storage, retrieval, modification, and security.</p>
+        <p><strong>Example:</strong> MySQL, PostgreSQL, Oracle Database, SQL Server</p>
+        <hr>
+    </div>
+    <br>
+    
+    <div>
+        <h2>Data Dictionary</h2>
+        <p>A data dictionary is a centralized repository of metadata that contains information about the data within a database. It describes the structure, relationships, and attributes of data elements.</p>
+        <p><strong>Example:</strong> In a data dictionary, you might find descriptions of tables, columns, data types, and constraints used in a database.</p>
+        <hr>
+    </div>
+    <br>
+    
+    <div>
+        <h2>Database</h2>
+        <p>A database is a structured collection of data organized and stored electronically. It allows for efficient data manipulation, retrieval, and management.</p>
+        <p><strong>Example:</strong> An online store might have a database containing tables for customers, orders, products, and reviews.</p>
+        <hr>
+    </div>
+    <br>
+    
+    <div>
+        <h2>Tuple (Row)</h2>
+        <p>A tuple refers to a single record or row in a table, containing a set of related data fields that collectively represent an entity.</p>
+        <p><strong>Example:</strong> In an "Employees" table, each tuple (row) might contain information about an individual employee, such as employee ID, name, department, and salary.</p>
+        <hr>
+    </div>
+    <br>
+    
+    <div>
+        <h2>Field (Column)</h2>
+        <p>A field, also known as a column, is a single piece of data within a table. It represents a specific attribute or characteristic of the entities that the table represents.</p>
+        <p><strong>Example:</strong> In a "Books" table, fields (columns) could include book ID, title, author, publisher, and publication year.</p>
+        <hr>
+    </div>
+    <br>
+    
+    <div>
+        <h2>Domain</h2>
+        <p>Domain refers to the permissible range of values for a specific data attribute or field in a database, defining the valid data types, formats, and constraints that govern data input and integrity.</p>
+        <p><strong>Example:</strong> In a database, a domain for a "Date of Birth" field might specify that the values must be in the format YYYY-MM-DD and must correspond to valid dates.</p>
+        <hr>
+    </div>
+    <br>
+    
+    <div>
+        <h2>Constraint</h2>
+        <p>A constraint is a rule or condition applied to data within a database to maintain the integrity, accuracy, and reliability of the data. Examples include uniqueness, foreign key, and check constraints.</p>
+        <p><strong>Example:</strong> A "Unique Constraint" ensures that values in a particular column (or combination of columns) are unique across all rows in a table, preventing duplicate entries.</p>
+        <hr>
+    </div>
+    <br>
+    
+    <div>
+        <h2>Key</h2>
+        <p>A key is a field or combination of fields that uniquely identifies a record within a table. Examples include primary keys, candidate keys, and foreign keys.</p>
+        <p><strong>Example:</strong> A "Primary Key" in a "Students" table might be the Student ID, ensuring each student record has a unique identifier.</p>
+        <hr>
+    </div>
+    
